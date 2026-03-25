@@ -184,17 +184,19 @@ Display a compact inline badge showing a format type or tool category.
 
 ### Interactive Tool
 
-Embed a full interactive tool via iframe with complete isolation.
+Embed a full interactive tool via iframe. Use the `data-slug` attribute with the format `category/tool-name`.
 
 ```html
 <!-- Embed an interactive PeasyAudio tool -->
 <div data-peasy-audio="interactive"
-  data-url="https://peasyaudio.com/embed/mp3/"
-  data-height="500px"
+  data-slug="audio/example-tool"
+  data-height="500"
   data-theme="light">
 </div>
 <script src="https://cdn.jsdelivr.net/npm/peasy-audio-embed@1/dist/embed.min.js"></script>
 ```
+
+> **Note:** The `data-slug` value uses the format `category-slug/tool-slug`. Find available tools at [peasyaudio.com/api/v1/tools/](https://peasyaudio.com/api/v1/tools/).
 
 ### Glossary Tooltip
 
