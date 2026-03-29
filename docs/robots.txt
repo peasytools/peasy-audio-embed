@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# PeasyAudio Embed Widget
+# Main site: https://peasyaudio.com
+# Widget docs: https://widget.peasyaudio.com
+# npm: https://www.npmjs.com/package/peasy-audio-embed
